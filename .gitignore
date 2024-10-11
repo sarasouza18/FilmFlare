@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+tmp/
+temp/
+
+# Docker and Kubernetes
+Dockerfile
+docker-compose.yml
+.docker/
+.kubernetes/
+
+# DynamoDB local files
+.dynamodb/
+
+# Redis cache
+redis-data/
+
+# Elasticsearch data
+elasticsearch-data/
+
+# Ignore IDE directories
+.idea/
+.vscode/
+*.swp
+
+# MacOS files
+.DS_Store
+
+# Others
+coverage/
